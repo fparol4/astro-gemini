@@ -1,5 +1,5 @@
 import { Controls } from "./controls"
-import { MessagesBox } from "./messages-box"
+import { MessagesBox } from "@/components/messages/messages-box"
 
 export const MessagesContainer = () => {
     return (

@@ -1,11 +1,13 @@
-import { SendSolid } from "@mynaui/icons-react"
-import { Input } from "../ui/input"
 import { useState } from "react"
+
 import { ENTER_KEY } from "@/constants"
+import { Input } from "@/components/ui/input"
+import { SendSolid } from "@mynaui/icons-react"
 import { addMessage } from "@/stores/messages-store"
 
+
 export const Controls = () => {
-    const [prompt, setPrompt] = useState<string>()
+    const [prompt, setPrompt] = useState<string>('')
 
     const handleEnterKey = (e: React.KeyboardEvent) => {
         if (e.code === ENTER_KEY) {

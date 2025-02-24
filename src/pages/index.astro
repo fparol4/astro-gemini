@@ -1,8 +1,8 @@
 ---
-import MainLayout from "@/layouts/main.astro";
-import { MessagesContainer } from "@/components/messages";
+import MainLayout from "@/layouts/main.astro"
+import { MessagesContainer } from "@/components/messages"
 ---
 
 <MainLayout>
-    <MessagesContainer client:load />
+    <MessagesContainer client:only="react" />
 </MainLayout>
