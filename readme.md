@@ -19,4 +19,5 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 - Examples of how to well integrate **Astro** with **React** components. 
 
 **Working GIF**
-![astro-gemini](https://github.com/user-attachments/assets/c2635f6d-7b38-4d56-b922-dc1740675f2c)
+
+![astro-gemini-ezgif com-crop (1)](https://github.com/user-attachments/assets/50ddcb2b-e0ee-4ee4-898c-bf2d13a87a0a)
