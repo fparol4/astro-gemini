@@ -1,7 +1,5 @@
 @import "tailwindcss";
-
 @plugin "tailwindcss-animate";
-
 @custom-variant dark (&:is(.dark *));
 
 :root {
@@ -118,7 +116,21 @@
   * {
     @apply border-border outline-ring/50;
   }
+
   body {
     @apply bg-background text-foreground;
+  }
+
+  ::-webkit-scrollbar {
+    width: 0.25em;
+    height: 0.25em;
+  }
+
+  ::-webkit-scrollbar-track-piece {
+    background: #888
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #eee
   }
 }

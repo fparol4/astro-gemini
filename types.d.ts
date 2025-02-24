@@ -1,0 +1,1 @@
+type KeyofEnum<T> = keyof T; 

@@ -1,9 +1,8 @@
---- 
-import MainLayout from '@/layouts/main.astro'
-import { Input } from '@/components/ui/input'
+---
+import MainLayout from "@/layouts/main.astro";
+import { MessagesContainer } from "@/components/messages";
 ---
 
 <MainLayout>
-    <h1>Helloworld</h1>
-    <Input />
+    <MessagesContainer client:load />
 </MainLayout>
