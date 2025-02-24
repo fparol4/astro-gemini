@@ -4,7 +4,7 @@ Hi folks, decided to understand better the **Astro Framework**, integrating with
 
 ## To work with 
 -  Minimal CPU & GPU resources | **Running on** 11400f + GTX 970 4GB VRAM
--  Will you need **Google Canary** and proceed with the below documentation for installing it - **simple steps***
+-  Will you need **Google Canary** and proceed with the below documentation for installing it - ***basic steps***
 https://developer.chrome.com/docs/extensions/ai/prompt-api
 
 ```
@@ -19,5 +19,4 @@ https://developer.chrome.com/docs/extensions/ai/prompt-api
 - Examples of how to well integrate **Astro** with **React** components. 
 
 **Working GIF**
-
-![[astro-gemini.gif]]
+![astro-gemini](https://github.com/user-attachments/assets/c2635f6d-7b38-4d56-b922-dc1740675f2c)
